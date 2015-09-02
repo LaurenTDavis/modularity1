@@ -1,0 +1,124 @@
+/* Data Table */
+.rowOne {
+	width:100%;
+}
+.rowOne td, .rowOne th {
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+.rowOne tr:last-child td {
+	border-bottom: 0px;
+}
+
+/* Stats Chart */
+.rowTwo {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+
+}
+
+.stats {
+	font-size: 2em;
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-align: center;
+	padding: .5em .5em 0 .5em;
+
+}
+
+.lilWords {
+	font-size: 12px;
+	text-align: center;
+	color: grey;
+	padding-bottom: 1em;
+
+
+}
+
+/* Bar Chart */
+
+
+.barChart {
+	color: white;
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	background-color: #6C87E0;
+	padding-left: 5px;
+}
+
+.left-table th {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.left-table td {
+	width: 100%;
+	padding: 1px 10px;
+}
+
+
+/* Lightbox */
+
+.bigBox {
+	/*position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;*/
+	background-color: darkgrey;
+	padding: 10px;
+
+}
+.mediumContainer {
+	vertical-align: center;
+	/*position: fixed;
+	top: 200px;
+	left: 200px;*/
+	
+}
+
+.mediumBox {
+	background-color: white;
+	width: 525px;
+	height: 250px;
+	border-radius: 1em;
+	text-align: justify;
+	padding: 10px;
+}
+
+.close-button {
+	background-color: pink;
+	border-radius: 1em;
+	float: right;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	padding: 14px 5px 5px 5px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+
+/* Media Block */ 
+
+.mediaObject {
+	float: left;
+	margin: 0 10px 10px 0;
+
+}
+
+.mediaBody {
+	overflow: hidden;
+}
+
+
+
+
+
+
